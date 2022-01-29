@@ -7,10 +7,10 @@ Created on Fri Jan 28 18:07:06 2022
 import tweepy
 import time
 
-consumer_key = 'RPk72YWRWjYpiXtwAsukLZIxU'
-consumer_secret = 'OiVHhnb8SaevlsSUOMqRUFZVdmilda8YTEoNHfuypBxUVI7hkH'
-access_token = '1017497549995954176-ECKnDL9jDvpd4J4mwRTpKVqNbA8SgT'
-access_token_secret = 'RsVtUmAIV9YqHf21bN0o7i6xLFUpg3To4NraqmEWVDyZ4'
+consumer_key = 'consumer_key'
+consumer_secret = 'consumer_secret'
+access_token = 'access_token'
+access_token_secret = 'access_token_secret'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
