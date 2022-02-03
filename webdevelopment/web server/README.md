@@ -8,6 +8,7 @@ To add `.css` and `.js` files, refer to `Static Files` section.
 ```bash
 cd web server/Scripts/
 activate
+set FLASK_APP=server
 set FLASK_ENV=development
 flask run
 ```
